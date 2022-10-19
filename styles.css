@@ -1,0 +1,59 @@
+body {
+  background-color: grey;
+  margin: 0;
+}
+.menu {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+}
+.btn {
+  background: transparent;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  width: 60px;
+  height: 60px;
+}
+.btn img {
+  width: 60px;
+}
+.dropdown-menu {
+  margin: 0;
+  padding: 5px;
+  width: 240px;
+  background-color: grey;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+.color-toggle {
+  list-style: none;
+  line-height: 60px;
+  margin: 5px;
+}
+.color-toggle a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  height: 60px;
+}
+.color-toggle input {
+  cursor: pointer;
+  margin: 15px;
+}
+#home {
+  background-color: grey;
+}
+#red {
+  background-color: red;
+}
+#orange {
+  background-color: orange;
+}
+#purple {
+  background-color: purple;
+}
+#green {
+  background-color: green;
+}
